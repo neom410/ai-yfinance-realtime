@@ -1,0 +1,30 @@
+# Aggiungi tutti i file
+git add .
+
+# Commit iniziale
+git commit -m "Initial commit: AI Financial Analysis Platform
+
+✨ Features:
+- Real-time financial data with yfinance
+- AI-powered market analysis with GPT-4
+- Machine learning price predictions
+- Technical indicators and pattern recognition
+- Sentiment analysis
+- Interactive Streamlit dashboard
+- Trading signals generation
+
+🛠️ Tech Stack:
+- Python 3.8+
+- Streamlit for UI
+- OpenAI GPT-4 for AI analysis
+- scikit-learn for ML predictions
+- yfinance for real-time data
+- Plotly for interactive charts
+
+📋 Setup:
+- Run: python setup.py
+- Configure API keys in .env
+- Start: streamlit run main.py"
+
+# Push su GitHub
+git push origin main
