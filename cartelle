@@ -1,0 +1,10 @@
+# Crea tutte le cartelle necessarie
+mkdir -p src/data src/ai src/api src/utils tests docs
+
+# Crea file __init__.py per i pacchetti Python
+touch src/__init__.py
+touch src/data/__init__.py
+touch src/ai/__init__.py
+touch src/api/__init__.py
+touch src/utils/__init__.py
+touch tests/__init__.py
