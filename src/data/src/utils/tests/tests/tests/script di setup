@@ -1,0 +1,12 @@
+# 1. Esegui lo script di setup
+python setup.py
+
+# 2. Crea il file .env con le tue API keys
+cp .env.example .env
+# Modifica .env con le tue API keys
+
+# 3. Test l'applicazione
+python -m pytest tests/test_basic.py -v
+
+# 4. Avvia l'applicazione
+streamlit run main.py
