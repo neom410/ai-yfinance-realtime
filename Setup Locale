@@ -1,0 +1,12 @@
+# Clona il repository (sostituisci con il tuo username)
+git clone https://github.com/tuousername/ai-yfinance-realtime.git
+cd ai-yfinance-realtime
+
+# Crea ambiente virtuale
+python -m venv venv
+
+# Attiva ambiente virtuale
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
